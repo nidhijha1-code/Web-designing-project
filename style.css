@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3dbdb;
+    color: #222;
+}
+
+/* Navigation */
+header {
+    background: #471602;
+    padding: 15px 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+}
+
+.about-text h1 {
+    font-size: 40px;
+}
+
+.about-text h1 span {
+    color: #65bf2d;
+}
+
+.about-text p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.btn {
+    background: #6d2910;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.about-img img {
+    width: 200px;
+    border-radius: 50%;
+}
+.image2 img {
+    width: 200px;
+    border-radius: 20%;
+}
+
+/* Section */
+.section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.gray {
+    background: #f1f1f1;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Education & Skills */
+.edu-skill-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.edu ul li, .skills span {
+    margin: 10px 0;
+}
+
+.skill-tags span {
+    display: inline-block;
+    background: #65bf2d;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project-card {
+    width: 30%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #00aaff;
+}
+
+/* Contact */
+.contact-info {
+    font-size: 18px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background: #6d2910;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+   
